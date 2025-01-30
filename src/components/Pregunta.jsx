@@ -11,13 +11,13 @@ export default function Pregunta({pregunta}) {
                 <h5 className="card-title">Pregunta nº{id}</h5>
                 <h6 className="card-subtitle mb-2 text-body-secondary">{enunciado}</h6>
                 <div className="btn-group-vertical" role="group" aria-label="Vertical radio toggle button group">
-                <input type="radio" className="btn-check" name="btn-respuesta" id={`${pregunta.id}vbtn-radio1"`} autoComplete="off"></input>
+                <input type="radio" className="btn-check" name="btn-respuesta" id={`${pregunta.id}vbtn-radio1`} autoComplete="off"></input>
                 <label className="btn btn-outline-danger" htmlFor={`${pregunta.id}vbtn-radio1"`}>{respuesta1}</label>
-                <input type="radio" className="btn-check" name="btn-respuesta" id={`${pregunta.id}vbtn-radio2"`} autoComplete="off"></input>
+                <input type="radio" className="btn-check" name="btn-respuesta" id={`${pregunta.id}vbtn-radio2`} autoComplete="off"></input>
                 <label className="btn btn-outline-danger" htmlFor={`${pregunta.id}vbtn-radio2"`}>{respuesta2}</label>
-                <input type="radio" className="btn-check" name="btn-respuesta" id={`${pregunta.id}vbtn-radio3"`} autoComplete="off"></input>
+                <input type="radio" className="btn-check" name="btn-respuesta" id={`${pregunta.id}vbtn-radio3`} autoComplete="off"></input>
                 <label className="btn btn-outline-danger" htmlFor={`${pregunta.id}vbtn-radio3"`}>{respuesta3}</label>
-                <input type="radio" className="btn-check" name="btn-respuesta" id={`${pregunta.id}vbtn-radio4"`} autoComplete="off"></input>
+                <input type="radio" className="btn-check" name="btn-respuesta" id={`${pregunta.id}vbtn-radio4`} autoComplete="off"></input>
                 <label className="btn btn-outline-danger" htmlFor={`${pregunta.id}vbtn-radio4"`}>{respuesta4}</label>
                 </div>
             </div>
