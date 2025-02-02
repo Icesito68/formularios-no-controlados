@@ -1,6 +1,6 @@
 import { useState, useContext } from 'react';
 import Swal from 'sweetalert2';
-import {QuestionsContext} from "../App";
+import {QuestionsContext} from "../providers/QuestionsProvider";
 
 export default function FormularioPregunta() {
 

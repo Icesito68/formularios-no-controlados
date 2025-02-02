@@ -1,5 +1,5 @@
 import {useContext } from 'react';
-import { QuestionsContext } from '../App';
+import { QuestionsContext } from '../providers/QuestionsProvider';
 
 export default function Pregunta({pregunta}) {
     const {borrarPregunta} = useContext(QuestionsContext);
